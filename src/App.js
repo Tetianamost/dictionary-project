@@ -12,7 +12,17 @@ export default function App() {
           <Dictionary />
         </main>
         <footer className="my-5 text-center text-muted">
-          <small>Coded by Tetiana Mostova</small>
+          <small>
+            {" "}
+            <a
+              href="https://github.com/Tetianamost/dictionary-project"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Coded
+            </a>
+            &nbsp; by Tetiana Mostova
+          </small>
         </footer>
       </div>
     </div>
