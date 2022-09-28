@@ -1,5 +1,10 @@
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin: 0 auto;
+
     animation: App-logo-spin infinite 20s linear;
   }
 }

@@ -1,13 +1,20 @@
 import logo from "./logo.svg";
 import "./App.css";
-
+import Dictionary from "./Dictionary";
 export default function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <h1 className="text-center">Hello</h1>
-        <img src={logo} className="App-logo" alt="logo" />
-      </header>
+      <div className="container">
+        <header className="App-header">
+          <img src={logo} className="App-logo img-fluid" alt="logo" />
+        </header>
+        <main>
+          <Dictionary />
+        </main>
+        <footer className="my-5 text-center text-muted">
+          <small>Coded by Tetiana Mostova</small>
+        </footer>
+      </div>
     </div>
   );
 }
