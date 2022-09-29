@@ -1,15 +1,20 @@
 import React from "react";
+
 export default function Synonyms(props) {
-  console.log(props);
-  if (props.synonyms) {
+  if (props.synonyms.length <= null) {
+    return null;
+  } else {
     return (
-      <ul className="Synonyms">
+      <ul className="Synonyms list-inline">
+        <strong>Synonyms:</strong>
         {props.synonyms.map(function (synonym, index) {
-          return <li key={index}>{synonym}</li>;
+          return (
+            <li className="list-inline-item" key={index}>
+              · {synonym}
+            </li>
+          );
         })}
       </ul>
     );
-  } else {
-    return null;
   }
 }
