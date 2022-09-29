@@ -8,7 +8,8 @@ export default function Meaning(props) {
       {props.meaning.definitions.map(function (definition, index) {
         return (
           <div key={index} className="Definitions">
-            <strong>Definition:</strong> {definition.definition}
+            <i className="fa-solid fa-magnifying-glass-arrow-right fa-lg"></i>{" "}
+            {definition.definition}
             <br />
             <em> {definition.example}</em> <br />
           </div>
