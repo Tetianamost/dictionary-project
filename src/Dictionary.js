@@ -22,7 +22,12 @@ export default function Dictionary() {
   return (
     <div className="Dictionary">
       <form onSubmit={search}>
-        <input type="search" autoFocus={true} onChange={handleKeywordChange} />
+        <input
+          className="px-5 py-2 border border-success rounded-pill"
+          type="search"
+          autoFocus={true}
+          onChange={handleKeywordChange}
+        />
       </form>
       <Results results={results} />
     </div>
