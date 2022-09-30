@@ -1,3 +1,13 @@
+body {
+  background: #f9fefc;
+}
+a {
+  color: #052a1a;
+}
+a:hover {
+  color: #1d8e64;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     width: 100px;

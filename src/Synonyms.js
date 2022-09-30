@@ -5,7 +5,7 @@ export default function Synonyms(props) {
     return null;
   } else {
     return (
-      <ul className="Synonyms list-inline">
+      <ul className="Synonyms list-inline mt-3 text-center">
         <strong>Synonyms: </strong> <br />
         {props.synonyms.map(function (synonym, index) {
           return (
