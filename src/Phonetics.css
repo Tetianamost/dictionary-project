@@ -11,3 +11,13 @@
 .Phonetics a:hover {
   color: rgb(2, 128, 105);
 }
+.Phonetics audio {
+  border-radius: 90px;
+  width: 100px;
+  height: 25px;
+  margin-right: 10px;
+}
+.Phonetics .pronoun {
+  position: relative;
+  top: -7px;
+}
