@@ -6,9 +6,9 @@ export default function Phonetics(props) {
     return null;
   } else {
     return (
-      <div className="Phonetics">
+      <div className="Phonetics d-inline-flex">
         <audio src={props.phonetics.audio} controls />
-        <span className="text-muted pronoun ">{props.phonetics.text}</span>
+        <span className="text-muted">{props.phonetics.text}</span>
       </div>
     );
   }
