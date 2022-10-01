@@ -12,9 +12,10 @@ export default function App() {
         <main>
           <Dictionary defaultKeyword="life" />
         </main>
-        <footer className=" text-center text-muted">
+        <footer className=" text-center my-2 text-muted">
           <small>
             <em>
+              ©&nbsp;
               <a
                 href="https://github.com/Tetianamost/dictionary-project"
                 target="_blank"
@@ -22,7 +23,7 @@ export default function App() {
               >
                 Coded
               </a>
-              &nbsp; by Tetiana Mostova
+              &nbsp; by Tetiana Mostova. All rights reserved.
             </em>
           </small>
         </footer>
