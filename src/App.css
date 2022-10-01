@@ -1,5 +1,7 @@
 body {
   background: #f9fefc;
+  max-width: 700px;
+  margin: 0 auto;
 }
 a {
   color: #052a1a;
