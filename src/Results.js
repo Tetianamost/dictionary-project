@@ -7,7 +7,7 @@ export default function Results(props) {
     return (
       <div className="Results ">
         <section className="text-center">
-          <h2 className="fs-1 font-weight-bold">{props.results.word}</h2>
+          <h2 className="fs-1 mb-3 font-weight-bold">{props.results.word}</h2>
           {props.results.phonetics.map(function (phonetic, index) {
             return (
               <div key={index}>
