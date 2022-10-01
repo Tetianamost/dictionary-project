@@ -39,7 +39,7 @@ export default function Dictionary(props) {
   }
   if (loaded) {
     return (
-      <div className="Dictionary">
+      <div className="Dictionary mb-5">
         <section>
           <h4 className="mb-4 font-weight-bold text-center">
             What word do you want to look up?

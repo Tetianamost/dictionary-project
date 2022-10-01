@@ -12,7 +12,7 @@ export default function App() {
         <main>
           <Dictionary defaultKeyword="life" />
         </main>
-        <footer className="my-5 text-center text-muted">
+        <footer className="m-5 text-center text-muted">
           <small>
             {" "}
             <a
