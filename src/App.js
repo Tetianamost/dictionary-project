@@ -12,17 +12,18 @@ export default function App() {
         <main>
           <Dictionary defaultKeyword="life" />
         </main>
-        <footer className="m-5 text-center text-muted">
+        <footer className=" text-center text-muted">
           <small>
-            {" "}
-            <a
-              href="https://github.com/Tetianamost/dictionary-project"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Coded
-            </a>
-            &nbsp; by Tetiana Mostova
+            <em>
+              <a
+                href="https://github.com/Tetianamost/dictionary-project"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Coded
+              </a>
+              &nbsp; by Tetiana Mostova
+            </em>
           </small>
         </footer>
       </div>
