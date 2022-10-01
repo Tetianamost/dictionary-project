@@ -31,9 +31,9 @@ export default function Dictionary(props) {
     return (
       <div className="Dictionary">
         <section>
-          <h6 className="mb-4 font-weight-bold text-center">
+          <h4 className="mb-4 font-weight-bold text-center">
             What word do you want to look up?
-          </h6>
+          </h4>
           <form onSubmit={handleSubmit}>
             <input
               className="form-control px-5 py-2 border border-success rounded-pill"
