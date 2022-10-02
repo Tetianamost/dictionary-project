@@ -1,8 +1,23 @@
 body {
-  background: #f9fefc;
+  animation: bg-anim 15s ease infinite;
+  background-image: linear-gradient(-45deg, #f4f8fc, #e1fdff, #089193, #1ca3cd);
+  background-size: 400% 400%;
   max-width: 700px;
   margin: 0 auto;
 }
+
+@keyframes bg-anim {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
 a {
   color: #052a1a;
 }
