@@ -1,11 +1,21 @@
 import logo from "./logo2.svg";
 import "./App.css";
 import Dictionary from "./Dictionary";
+import { motion } from "framer-motion";
 
 export default function App() {
   return (
     <div className="App">
-      <div className="container">
+      <motion.div
+        initial={{ opacity: 0, scale: 0.5 }}
+        animate={{ opacity: 1, scale: 1 }}
+        transition={{
+          duration: 0.8,
+          delay: 0.5,
+          ease: [0, 0.71, 0.2, 1.01],
+        }}
+        className="container"
+      >
         <header className="App-header">
           <img src={logo} className="App-logo img-fluid" alt="logo" />
         </header>
@@ -27,7 +37,7 @@ export default function App() {
             </em>
           </small>
         </footer>
-      </div>
+      </motion.div>
     </div>
   );
 }
